@@ -7,8 +7,8 @@ Route::get('/', function () {
 });
 
 Route::get('/check', function () {
-    return response()->json(['message' => 'Hello, World!']);
+    return response()->json(['message' => 'Hola Amigo!'], 200);
 });
 Route::get('/about', function () {
-    return "About Page";
+    return "This is the About Page for testing purpose";
 });
