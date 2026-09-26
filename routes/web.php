@@ -9,3 +9,6 @@ Route::get('/', function () {
 Route::get('/check', function () {
     return response()->json(['message' => 'Hello, World!']);
 });
+Route::get('/about', function () {
+    return "About Page";
+});
